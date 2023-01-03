@@ -14,7 +14,11 @@ function Result(props) {
       transitionAppearTimeout={500}
     >
       <div>
-        You prefer <strong>{props.quizResult}</strong>!
+        {props.quizResult == 'Army' ?
+          <p>သင်သည် ကိုယ့်ကိုပြန်သတ်ဖို့ လက်နက်ဝယ်မယ့် စစ်ကောင်စီထုတ်ကုန်တွေကို ဝယ်ယူအားပေးနေပါတယ်။</p>
+          :
+          <p>သင်သည်စစ်တပ်ထုတ်ကုန်ငြင်းဆန်ပြည်သူဘက်တော်သားသူရဲကောင်းတစ်ယောက်ဖြစ်ပါတယ်။</p>
+        }
       </div>
     </CSSTransitionGroup>
   );
