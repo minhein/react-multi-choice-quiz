@@ -1,86 +1,86 @@
 var quizQuestions = [
   {
-      question: "What franchise would you rather play a game from?",
+      question: "အောက်ပါတို့မှ သပိတ်မှောက်ရမည့် စစ်တပ်ပိုင် MEHL (ဦးပိုင်) မှ ထုတ်လုပ်သည့် ဘီယာကို ရွေးပေးပါ။",
       answers: [
           {
-              type: "Microsoft",
-              content: "Halo"
+              type: "Army",
+              content: "Tiger ဘီယာ"
           },
           {
-              type: "Nintendo",
-              content: "Pokemon"
+              type: "Public1",
+              content: "Myanmar ဘီယာ"
           },
           {
-              type: "Sony",
-              content: "Uncharted"
+              type: "Public2",
+              content: "Chang ဘီယာ"
           }
       ]
   },
   {
-      question: "Which console would you prefer to play with friends?",
+      question: "အောက်ပါတို့မှ သပိတ်မှောက်ရမည့် စစ်တပ်ထုတ်ကုန် သောက်ရေသန့်ကို ရွေးပါ။",
       answers: [
           {
-              type: "Microsoft",
-              content: "X-Box"
+              type: "Army",
+              content: "နေပြည်တော် သောက်ရေသန့်"
           },
           {
-              type: "Nintendo",
-              content: "Nintendo 64"
+              type: "Public1",
+              content: "Alpine သောက်ရေသန့်"
           },
           {
-              type: "Sony",
-              content: "Playstation 1"
+              type: "Public2",
+              content: "Asia သောက်ရေသန့်"
           }
       ]
   },
   {
-      question: "Which of these racing franchises would you prefer to play a game from?",
+      question: "အောက်ပါတို့မှ သပိတ်မှောက်ရမည့် စစ်တပ်ထုတ်ကုန် ဘိလပ်မြေမှာ",
       answers: [
           {
-              type: "Microsoft",
-              content: "Forza"
+              type: "Army",
+              content: "ဆင်မင်း ဘိလပ်မြေ"
           },
           {
-              type: "Nintendo",
-              content: "Mario Kart"
+              type: "Public1",
+              content: "Crown ဘိလပ်မြေ"
           },
           {
-              type: "Sony",
-              content: "Gran Turismo"
+              type: "Public2",
+              content: "Apache ဘိလပ်မြေ"
           }
       ]
   },
   {
-      question: "Which of these games do you think is best?",
+      question: "အောက်ပါတို့မှ သပိတ်မှောက်ရမည့် စစ်တပ်ထုတ်ကုန်မှာ",
       answers: [
           {
-              type: "Microsoft",
-              content: "BioShock"
+              type: "Army",
+              content: "အဓိပတိ ဆန်"
           },
           {
-              type: "Nintendo",
-              content: "The Legend of Zelda: Ocarina of Time"
+              type: "Public1",
+              content: "Pioneer သောက်ရေသန့်"
           },
           {
-              type: "Sony",
-              content: "Final Fantasy VII"
+              type: "Public2",
+              content: "Asia အချိုရည်"
           }
       ]
   },
   {
-      question: "What console would you prefer to own?",
+      question: "အောက်ပါတို့မှ သပိတ်မှောက်ရမည့် စစ်တပ်နှင့်ဆက်နွယ်သော ထုတ်ကုန်မှာ",
       answers: [
           {
-              type: "Microsoft",
-              content: "X-Box One"
+              type: "Army",
+              content: "Signal သွားတိုက်ဆေး"
           },
           {
-              type: "Nintendo",
-              content: "Wii U"
+              type: "Public1",
+              content: "Sunday ကော်ဖီ"
           },
           {
-              type: "Sony",
-              content: "Playstation 4"
+              type: "Public2",
+              content: "Premium Gold ဆေးလိပ်"
           }
       ]
   }
