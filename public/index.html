@@ -10,6 +10,13 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <script defer src="https://cdn.vercel-insights.com/v1/script.debug.js"></script>
+    <script>
+      window.va = function () {
+        (window.vaq = window.vaq || []).push(arguments);
+      };
+    </script>
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -36,5 +43,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      window.va('beforeSend', (event) => {
+        if (event.url.includes('secret')) {
+          return null;
+        }
+        return event;
+      });
+    </script>
+
   </body>
 </html>
